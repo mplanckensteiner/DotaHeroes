@@ -3,23 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2209AD25CF2BE9004E6761 /* HeroCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2209AC25CF2BE9004E6761 /* HeroCellViewModel.swift */; };
+		1A2209B025CF3144004E6761 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2209AF25CF3144004E6761 /* NavigationLazyView.swift */; };
+		1A2209B325CF31A3004E6761 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2209B225CF31A3004E6761 /* HeroDetailView.swift */; };
 		1A5B305425CF041900A1BDC5 /* DotaHeroesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B305325CF041900A1BDC5 /* DotaHeroesApp.swift */; };
-		1A5B305625CF041900A1BDC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B305525CF041900A1BDC5 /* ContentView.swift */; };
 		1A5B305825CF041900A1BDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B305725CF041900A1BDC5 /* Assets.xcassets */; };
 		1A5B305B25CF041900A1BDC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B305A25CF041900A1BDC5 /* Preview Assets.xcassets */; };
+		1A5B306825CF04C400A1BDC5 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B306725CF04C400A1BDC5 /* Hero.swift */; };
+		1A5B308325CF1F8800A1BDC5 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B308225CF1F8800A1BDC5 /* HeroViewModel.swift */; };
+		1A5B308725CF218100A1BDC5 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B308625CF218100A1BDC5 /* HeroCell.swift */; };
+		1A5B308D25CF228E00A1BDC5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1A5B308C25CF228E00A1BDC5 /* SDWebImageSwiftUI */; };
+		1A9DB43625CF265800319FB4 /* HeroesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9DB43525CF265800319FB4 /* HeroesMainView.swift */; };
+		1AA1ADEE25D04A2B0041948C /* BarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1ADED25D04A2B0041948C /* BarViews.swift */; };
+		1ABB0EFC25D05E2D00145442 /* HeroFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB0EFB25D05E2D00145442 /* HeroFilterButton.swift */; };
+		1ABB0EFF25D0723F00145442 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB0EFE25D0723F00145442 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2209AC25CF2BE9004E6761 /* HeroCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCellViewModel.swift; sourceTree = "<group>"; };
+		1A2209AF25CF3144004E6761 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		1A2209B225CF31A3004E6761 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
 		1A5B305025CF041900A1BDC5 /* DotaHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5B305325CF041900A1BDC5 /* DotaHeroesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaHeroesApp.swift; sourceTree = "<group>"; };
-		1A5B305525CF041900A1BDC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A5B305725CF041900A1BDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5B305A25CF041900A1BDC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A5B305C25CF041900A1BDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5B306725CF04C400A1BDC5 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		1A5B308225CF1F8800A1BDC5 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		1A5B308625CF218100A1BDC5 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		1A9DB43525CF265800319FB4 /* HeroesMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMainView.swift; sourceTree = "<group>"; };
+		1AA1ADED25D04A2B0041948C /* BarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViews.swift; sourceTree = "<group>"; };
+		1ABB0EFB25D05E2D00145442 /* HeroFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroFilterButton.swift; sourceTree = "<group>"; };
+		1ABB0EFE25D0723F00145442 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5B308D25CF228E00A1BDC5 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +72,11 @@
 		1A5B305225CF041900A1BDC5 /* DotaHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				1A7AAB9825CF2AB500662058 /* Model */,
+				1A7AAB9725CF2AB200662058 /* View */,
+				1A7AAB9625CF2AB000662058 /* ViewModel */,
+				1A7AAB9525CF2AAE00662058 /* Utils */,
 				1A5B305325CF041900A1BDC5 /* DotaHeroesApp.swift */,
-				1A5B305525CF041900A1BDC5 /* ContentView.swift */,
 				1A5B305725CF041900A1BDC5 /* Assets.xcassets */,
 				1A5B305C25CF041900A1BDC5 /* Info.plist */,
 				1A5B305925CF041900A1BDC5 /* Preview Content */,
@@ -67,6 +90,44 @@
 				1A5B305A25CF041900A1BDC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A7AAB9525CF2AAE00662058 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A2209AF25CF3144004E6761 /* NavigationLazyView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1A7AAB9625CF2AB000662058 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A5B308225CF1F8800A1BDC5 /* HeroViewModel.swift */,
+				1A2209AC25CF2BE9004E6761 /* HeroCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A7AAB9725CF2AB200662058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A5B308625CF218100A1BDC5 /* HeroCell.swift */,
+				1A9DB43525CF265800319FB4 /* HeroesMainView.swift */,
+				1A2209B225CF31A3004E6761 /* HeroDetailView.swift */,
+				1AA1ADED25D04A2B0041948C /* BarViews.swift */,
+				1ABB0EFB25D05E2D00145442 /* HeroFilterButton.swift */,
+				1ABB0EFE25D0723F00145442 /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A7AAB9825CF2AB500662058 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A5B306725CF04C400A1BDC5 /* Hero.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +146,9 @@
 			dependencies = (
 			);
 			name = DotaHeroes;
+			packageProductDependencies = (
+				1A5B308C25CF228E00A1BDC5 /* SDWebImageSwiftUI */,
+			);
 			productName = DotaHeroes;
 			productReference = 1A5B305025CF041900A1BDC5 /* DotaHeroes.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 1A5B304725CF041900A1BDC5;
+			packageReferences = (
+				1A5B308B25CF228E00A1BDC5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 1A5B305125CF041900A1BDC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5B305625CF041900A1BDC5 /* ContentView.swift in Sources */,
+				1A2209B025CF3144004E6761 /* NavigationLazyView.swift in Sources */,
+				1ABB0EFC25D05E2D00145442 /* HeroFilterButton.swift in Sources */,
+				1AA1ADEE25D04A2B0041948C /* BarViews.swift in Sources */,
+				1A9DB43625CF265800319FB4 /* HeroesMainView.swift in Sources */,
+				1A5B306825CF04C400A1BDC5 /* Hero.swift in Sources */,
+				1A2209B325CF31A3004E6761 /* HeroDetailView.swift in Sources */,
+				1A2209AD25CF2BE9004E6761 /* HeroCellViewModel.swift in Sources */,
+				1A5B308325CF1F8800A1BDC5 /* HeroViewModel.swift in Sources */,
+				1A5B308725CF218100A1BDC5 /* HeroCell.swift in Sources */,
+				1ABB0EFF25D0723F00145442 /* SearchBar.swift in Sources */,
 				1A5B305425CF041900A1BDC5 /* DotaHeroesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelplanckensteiner.DotaHeroes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelplanckensteiner.DotaHeroes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A5B308B25CF228E00A1BDC5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A5B308C25CF228E00A1BDC5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A5B308B25CF228E00A1BDC5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A5B304825CF041900A1BDC5 /* Project object */;
 }
